@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto; /* Content takes remaining space */
+  min-height: 100vh;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(191, 189, 189);
+}
